@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/yourusername/chat-app.git'
+                git 'https://github.com/mohandonga201/chat-app.git'
             }
         }
         stage('Build Docker Image') {
